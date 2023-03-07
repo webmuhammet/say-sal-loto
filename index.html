@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sayısal Loto Oyunu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sayısal Loto Oyunu</h1>
+  <p>1 ve 100 arasında 6 adet sayı giriniz:</p>
+  <form>
+    <input type="text" id="numberInput">
+    <input type="button" value="Ekle" onclick="numaraekle()">
+  </form>
+  <ul id="numberList"></ul>
+  <input type="button" value="OYNA" onclick="lotOoyna()">
+  <h2>Sonuçlar:</h2>
+  <ul id="resultsList"></ul>
+</body>
+<script src="loto.js"></script>
+</html>
