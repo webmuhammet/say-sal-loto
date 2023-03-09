@@ -37,7 +37,7 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   #numberList li {
@@ -70,7 +70,7 @@
   }
 
   input[type=button] {
-    background-color: #d2e61f;
+    background-color: #008CBA;
     border: none;
     border-radius: 5px;
     color: white;
@@ -81,20 +81,22 @@
     transition: all 0.3s ease;
   }
   input[type=button]:hover {
-    background-color: #bad80f;
+    background-color: #005F6B;
   }
 
 
   #numberList li.selected {
     color: white;
-    background-color: rgb(141, 16, 199);
-    border-color: rgb(145, 13, 185);
+    background-color: green;
+    border-color: green;
     font-weight: bold;
   }
 
 
   .match {
-    color: rgb(126, 8, 194);
+    color: green;
     font-weight: bold;
   }
+  
+
   
